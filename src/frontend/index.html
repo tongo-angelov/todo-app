@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="bg-BG">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>To Do App v0.3.6</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="main dark">
+
+  <div class="container">
+
+    <div class="header">
+      <div class="logo">
+        <button id="btn-theme">theme</button>
+        <button id="btn-online">online</button>
+        <h1 id="app-title" class="primary">TO Do List</h1>
+      </div>
+      <input id="input" type="text" class="primary" placeholder="Type task and press enter to quick add" />
+    </div>
+
+    <div class="tasks no-completed">
+
+      <div class="category">
+        <div class="active label primary">
+          <span id="btn-add">Add Task</span>
+        </div>
+        <div id="active">
+        </div>
+      </div>
+
+
+      <div id="completed" class="category">
+        <div class="completed label secondary ">
+          <span>Completed</span>
+        </div>
+        <div id="done">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script type="module" src="js/script.js"></script>
+  <script type="module" src="js/data.js"></script>
+</body>
+
+</html>
